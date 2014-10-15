@@ -103,23 +103,23 @@
 51 silly addNameRange { name: 'gulp-jade', range: '*', hasData: false }
 52 silly addNameRange { name: 'guld-jshint', range: '*', hasData: false }
 53 silly addNameRange { name: 'jshint-stylish', range: '*', hasData: false }
-54 silly addNameRange { name: 'gulp-jscs', range: '*', hasData: false }
-55 verbose request where is /guld-jshint
-56 verbose request registry https://registry.npmjs.org/
-57 verbose request id 33a39f8a64a11947
-58 verbose url raw /guld-jshint
-59 verbose url resolving [ 'https://registry.npmjs.org/', './guld-jshint' ]
-60 verbose url resolved https://registry.npmjs.org/guld-jshint
-61 verbose request where is https://registry.npmjs.org/guld-jshint
-62 info trying registry request attempt 1 at 13:27:44
-63 http GET https://registry.npmjs.org/guld-jshint
+54 verbose request where is /guld-jshint
+55 verbose request registry https://registry.npmjs.org/
+56 verbose request id 7b0be66b7dec6bca
+57 verbose url raw /guld-jshint
+58 verbose url resolving [ 'https://registry.npmjs.org/', './guld-jshint' ]
+59 verbose url resolved https://registry.npmjs.org/guld-jshint
+60 verbose request where is https://registry.npmjs.org/guld-jshint
+61 info trying registry request attempt 1 at 13:38:36
+62 http GET https://registry.npmjs.org/guld-jshint
+63 silly addNameRange { name: 'gulp-jscs', range: '*', hasData: false }
 64 verbose request where is /gulp-jade
 65 verbose request registry https://registry.npmjs.org/
 66 verbose url raw /gulp-jade
 67 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jade' ]
 68 verbose url resolved https://registry.npmjs.org/gulp-jade
 69 verbose request where is https://registry.npmjs.org/gulp-jade
-70 info trying registry request attempt 1 at 13:27:44
+70 info trying registry request attempt 1 at 13:38:36
 71 verbose etag "DMAAKQIV2W08K2OM4LECRI7B"
 72 http GET https://registry.npmjs.org/gulp-jade
 73 verbose request where is /jshint-stylish
@@ -128,7 +128,7 @@
 76 verbose url resolving [ 'https://registry.npmjs.org/', './jshint-stylish' ]
 77 verbose url resolved https://registry.npmjs.org/jshint-stylish
 78 verbose request where is https://registry.npmjs.org/jshint-stylish
-79 info trying registry request attempt 1 at 13:27:44
+79 info trying registry request attempt 1 at 13:38:36
 80 verbose etag "D902ETO03GQR09PMS031VFXBB"
 81 http GET https://registry.npmjs.org/jshint-stylish
 82 verbose request where is /gulp-jscs
@@ -137,60 +137,65 @@
 85 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jscs' ]
 86 verbose url resolved https://registry.npmjs.org/gulp-jscs
 87 verbose request where is https://registry.npmjs.org/gulp-jscs
-88 info trying registry request attempt 1 at 13:27:44
+88 info trying registry request attempt 1 at 13:38:36
 89 verbose etag "F40JYT97LGWNH1YHSZRT5SIEL"
 90 http GET https://registry.npmjs.org/gulp-jscs
-91 http 304 https://registry.npmjs.org/jshint-stylish
+91 http 304 https://registry.npmjs.org/gulp-jade
 92 silly registry.get cb [ 304,
-92 silly registry.get   { date: 'Wed, 15 Oct 2014 18:27:44 GMT',
+92 silly registry.get   { date: 'Wed, 15 Oct 2014 18:38:36 GMT',
 92 silly registry.get     server: 'Apache',
 92 silly registry.get     via: '1.1 varnish',
-92 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:27:44 GMT',
+92 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:38:36 GMT',
 92 silly registry.get     'cache-control': 'max-age=60',
-92 silly registry.get     etag: '"D902ETO03GQR09PMS031VFXBB"',
-92 silly registry.get     age: '12',
-92 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+92 silly registry.get     etag: '"DMAAKQIV2W08K2OM4LECRI7B"',
+92 silly registry.get     age: '0',
+92 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
 92 silly registry.get     'x-cache': 'HIT',
 92 silly registry.get     'x-cache-hits': '1',
-92 silly registry.get     'x-timer': 'S1413397664.782571,VS0,VE0',
+92 silly registry.get     'x-timer': 'S1413398316.405451,VS0,VE27',
 92 silly registry.get     vary: 'Accept',
 92 silly registry.get     'content-length': '0',
 92 silly registry.get     'keep-alive': 'timeout=10, max=50',
 92 silly registry.get     connection: 'Keep-Alive' } ]
-93 verbose etag https://registry.npmjs.org/jshint-stylish from cache
-94 silly addNameRange number 2 { name: 'jshint-stylish', range: '*', hasData: true }
-95 silly addNameRange versions [ 'jshint-stylish',
-95 silly addNameRange   [ '0.1.0',
-95 silly addNameRange     '0.1.1',
-95 silly addNameRange     '0.1.2',
-95 silly addNameRange     '0.1.3',
-95 silly addNameRange     '0.1.4',
-95 silly addNameRange     '0.1.5',
+93 verbose etag https://registry.npmjs.org/gulp-jade from cache
+94 silly addNameRange number 2 { name: 'gulp-jade', range: '*', hasData: true }
+95 silly addNameRange versions [ 'gulp-jade',
+95 silly addNameRange   [ '0.0.1',
+95 silly addNameRange     '0.0.2',
+95 silly addNameRange     '0.0.3',
+95 silly addNameRange     '0.1.0',
 95 silly addNameRange     '0.2.0',
 95 silly addNameRange     '0.3.0',
 95 silly addNameRange     '0.4.0',
-95 silly addNameRange     '1.0.0' ] ]
-96 verbose addNamed [ 'jshint-stylish', '1.0.0' ]
-97 verbose addNamed [ '1.0.0', '1.0.0' ]
-98 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
-99 verbose lock jshint-stylish@1.0.0 /Users/matt/.npm/52e6bf97-jshint-stylish-1-0-0.lock
-100 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
-101 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
-102 silly lockFile f26fdf17-jshint-stylish jshint-stylish@
-103 silly lockFile f26fdf17-jshint-stylish jshint-stylish@
+95 silly addNameRange     '0.4.1',
+95 silly addNameRange     '0.4.2',
+95 silly addNameRange     '0.5.0',
+95 silly addNameRange     '0.6.0',
+95 silly addNameRange     '0.6.1',
+95 silly addNameRange     '0.7.0',
+95 silly addNameRange     '0.8.0',
+95 silly addNameRange     '0.9.0' ] ]
+96 verbose addNamed [ 'gulp-jade', '0.9.0' ]
+97 verbose addNamed [ '0.9.0', '0.9.0' ]
+98 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
+99 verbose lock gulp-jade@0.9.0 /Users/matt/.npm/0df7e9de-gulp-jade-0-9-0.lock
+100 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
+101 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
+102 silly lockFile 3f0d61c6-gulp-jade gulp-jade@
+103 silly lockFile 3f0d61c6-gulp-jade gulp-jade@
 104 http 304 https://registry.npmjs.org/gulp-jscs
 105 silly registry.get cb [ 304,
-105 silly registry.get   { date: 'Wed, 15 Oct 2014 18:27:44 GMT',
+105 silly registry.get   { date: 'Wed, 15 Oct 2014 18:38:36 GMT',
 105 silly registry.get     server: 'Apache',
 105 silly registry.get     via: '1.1 varnish',
-105 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:27:44 GMT',
+105 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:38:36 GMT',
 105 silly registry.get     'cache-control': 'max-age=60',
 105 silly registry.get     etag: '"F40JYT97LGWNH1YHSZRT5SIEL"',
 105 silly registry.get     age: '0',
-105 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+105 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
 105 silly registry.get     'x-cache': 'HIT',
 105 silly registry.get     'x-cache-hits': '1',
-105 silly registry.get     'x-timer': 'S1413397664.780513,VS0,VE22',
+105 silly registry.get     'x-timer': 'S1413398316.403396,VS0,VE108',
 105 silly registry.get     vary: 'Accept',
 105 silly registry.get     'content-length': '0',
 105 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -225,81 +230,76 @@
 114 silly lockFile cfafe30e-gulp-jscs-1-1-2 gulp-jscs@1.1.2
 115 silly lockFile 842020e7-gulp-jscs gulp-jscs@
 116 silly lockFile 842020e7-gulp-jscs gulp-jscs@
-117 http 304 https://registry.npmjs.org/gulp-jade
-118 silly registry.get cb [ 304,
-118 silly registry.get   { date: 'Wed, 15 Oct 2014 18:27:44 GMT',
-118 silly registry.get     server: 'Apache',
-118 silly registry.get     via: '1.1 varnish',
-118 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:27:44 GMT',
-118 silly registry.get     'cache-control': 'max-age=60',
-118 silly registry.get     etag: '"DMAAKQIV2W08K2OM4LECRI7B"',
-118 silly registry.get     age: '0',
-118 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
-118 silly registry.get     'x-cache': 'HIT',
-118 silly registry.get     'x-cache-hits': '1',
-118 silly registry.get     'x-timer': 'S1413397664.779374,VS0,VE29',
-118 silly registry.get     vary: 'Accept',
-118 silly registry.get     'content-length': '0',
-118 silly registry.get     'keep-alive': 'timeout=10, max=50',
-118 silly registry.get     connection: 'Keep-Alive' } ]
-119 verbose etag https://registry.npmjs.org/gulp-jade from cache
-120 silly addNameRange number 2 { name: 'gulp-jade', range: '*', hasData: true }
-121 silly addNameRange versions [ 'gulp-jade',
-121 silly addNameRange   [ '0.0.1',
-121 silly addNameRange     '0.0.2',
-121 silly addNameRange     '0.0.3',
-121 silly addNameRange     '0.1.0',
-121 silly addNameRange     '0.2.0',
-121 silly addNameRange     '0.3.0',
-121 silly addNameRange     '0.4.0',
-121 silly addNameRange     '0.4.1',
-121 silly addNameRange     '0.4.2',
-121 silly addNameRange     '0.5.0',
-121 silly addNameRange     '0.6.0',
-121 silly addNameRange     '0.6.1',
-121 silly addNameRange     '0.7.0',
-121 silly addNameRange     '0.8.0',
-121 silly addNameRange     '0.9.0' ] ]
-122 verbose addNamed [ 'gulp-jade', '0.9.0' ]
-123 verbose addNamed [ '0.9.0', '0.9.0' ]
-124 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
-125 verbose lock gulp-jade@0.9.0 /Users/matt/.npm/0df7e9de-gulp-jade-0-9-0.lock
-126 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
-127 silly lockFile 0df7e9de-gulp-jade-0-9-0 gulp-jade@0.9.0
-128 silly lockFile 3f0d61c6-gulp-jade gulp-jade@
-129 silly lockFile 3f0d61c6-gulp-jade gulp-jade@
-130 http 404 https://registry.npmjs.org/guld-jshint
-131 verbose headers { date: 'Wed, 15 Oct 2014 18:27:44 GMT',
-131 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-131 verbose headers   'content-type': 'application/json',
-131 verbose headers   'cache-control': 'max-age=0',
-131 verbose headers   'content-length': '52',
-131 verbose headers   'accept-ranges': 'bytes',
-131 verbose headers   via: '1.1 varnish',
-131 verbose headers   age: '0',
-131 verbose headers   'x-served-by': 'cache-atl6225-ATL',
-131 verbose headers   'x-cache': 'MISS',
-131 verbose headers   'x-cache-hits': '0',
-131 verbose headers   'x-timer': 'S1413397664.783228,VS0,VE106',
-131 verbose headers   'keep-alive': 'timeout=10, max=50',
-131 verbose headers   connection: 'Keep-Alive' }
-132 silly registry.get cb [ 404,
-132 silly registry.get   { date: 'Wed, 15 Oct 2014 18:27:44 GMT',
-132 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-132 silly registry.get     'content-type': 'application/json',
-132 silly registry.get     'cache-control': 'max-age=0',
-132 silly registry.get     'content-length': '52',
-132 silly registry.get     'accept-ranges': 'bytes',
-132 silly registry.get     via: '1.1 varnish',
-132 silly registry.get     age: '0',
-132 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
-132 silly registry.get     'x-cache': 'MISS',
-132 silly registry.get     'x-cache-hits': '0',
-132 silly registry.get     'x-timer': 'S1413397664.783228,VS0,VE106',
-132 silly registry.get     'keep-alive': 'timeout=10, max=50',
-132 silly registry.get     connection: 'Keep-Alive' } ]
-133 silly lockFile 4a1ad635-guld-jshint guld-jshint@
-134 silly lockFile 4a1ad635-guld-jshint guld-jshint@
+117 http 404 https://registry.npmjs.org/guld-jshint
+118 verbose headers { date: 'Wed, 15 Oct 2014 18:38:36 GMT',
+118 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 verbose headers   'content-type': 'application/json',
+118 verbose headers   'cache-control': 'max-age=0',
+118 verbose headers   'content-length': '52',
+118 verbose headers   'accept-ranges': 'bytes',
+118 verbose headers   via: '1.1 varnish',
+118 verbose headers   age: '0',
+118 verbose headers   'x-served-by': 'cache-atl6223-ATL',
+118 verbose headers   'x-cache': 'MISS',
+118 verbose headers   'x-cache-hits': '0',
+118 verbose headers   'x-timer': 'S1413398316.405084,VS0,VE111',
+118 verbose headers   'keep-alive': 'timeout=10, max=50',
+118 verbose headers   connection: 'Keep-Alive' }
+119 silly registry.get cb [ 404,
+119 silly registry.get   { date: 'Wed, 15 Oct 2014 18:38:36 GMT',
+119 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 silly registry.get     'content-type': 'application/json',
+119 silly registry.get     'cache-control': 'max-age=0',
+119 silly registry.get     'content-length': '52',
+119 silly registry.get     'accept-ranges': 'bytes',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     age: '0',
+119 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+119 silly registry.get     'x-cache': 'MISS',
+119 silly registry.get     'x-cache-hits': '0',
+119 silly registry.get     'x-timer': 'S1413398316.405084,VS0,VE111',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 silly lockFile 4a1ad635-guld-jshint guld-jshint@
+121 silly lockFile 4a1ad635-guld-jshint guld-jshint@
+122 http 304 https://registry.npmjs.org/jshint-stylish
+123 silly registry.get cb [ 304,
+123 silly registry.get   { date: 'Wed, 15 Oct 2014 18:38:36 GMT',
+123 silly registry.get     server: 'Apache',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     'last-modified': 'Wed, 15 Oct 2014 18:38:36 GMT',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     etag: '"D902ETO03GQR09PMS031VFXBB"',
+123 silly registry.get     age: '0',
+123 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+123 silly registry.get     'x-cache': 'HIT',
+123 silly registry.get     'x-cache-hits': '1',
+123 silly registry.get     'x-timer': 'S1413398316.405069,VS0,VE309',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'content-length': '0',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 verbose etag https://registry.npmjs.org/jshint-stylish from cache
+125 silly addNameRange number 2 { name: 'jshint-stylish', range: '*', hasData: true }
+126 silly addNameRange versions [ 'jshint-stylish',
+126 silly addNameRange   [ '0.1.0',
+126 silly addNameRange     '0.1.1',
+126 silly addNameRange     '0.1.2',
+126 silly addNameRange     '0.1.3',
+126 silly addNameRange     '0.1.4',
+126 silly addNameRange     '0.1.5',
+126 silly addNameRange     '0.2.0',
+126 silly addNameRange     '0.3.0',
+126 silly addNameRange     '0.4.0',
+126 silly addNameRange     '1.0.0' ] ]
+127 verbose addNamed [ 'jshint-stylish', '1.0.0' ]
+128 verbose addNamed [ '1.0.0', '1.0.0' ]
+129 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
+130 verbose lock jshint-stylish@1.0.0 /Users/matt/.npm/52e6bf97-jshint-stylish-1-0-0.lock
+131 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
+132 silly lockFile 52e6bf97-jshint-stylish-1-0-0 jshint-stylish@1.0.0
+133 silly lockFile f26fdf17-jshint-stylish jshint-stylish@
+134 silly lockFile f26fdf17-jshint-stylish jshint-stylish@
 135 error 404 404 Not Found: guld-jshint
 135 error 404
 135 error 404 'guld-jshint' is not in the npm registry.
