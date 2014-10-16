@@ -5,9 +5,9 @@
         Timer app
   </description>
   <author email="mkeef1@gmail.com" href="http://matt.io/">
-      Ionic Framework Team
+      Matt Keef
   </author>
-  <content src="http://192.168.56.100:5502" original-src="index.html"/>
+  <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>

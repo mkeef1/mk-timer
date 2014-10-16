@@ -12,12 +12,17 @@
     <script src="js/main_controller.js"></script>
   </head>
   <body ng-app="mk-timer">
-    <div class="bar bar-header bar-calm">
+    <ion-header-bar class="bar-calm">
       <h1 class="title">Timer App</h1>
-    </div>
-    <ion-content ng-controller="MainCtrl" class="has-header">
-      <input type="number" ng-model="time" placeholder="0">
-      <button ng-click="start({{time}})">start</button>
+    </ion-header-bar>
+    <ion-content ng-controller="MainCtrl"><br><br><br>
+      <h3>Enter Seconds</h3>
+      <div class="card">
+        <div class="item item-text-wrap">
+          <input type="number" ng-model="input" placeholder="0">
+        </div>
+      </div>
+      <button ng-click="start()" class="button button-block button-balanced">start</button><br><br>
       <div class="clock">{{time}}</div>
     </ion-content>
   </body>
